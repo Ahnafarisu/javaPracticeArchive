@@ -14,6 +14,10 @@ public class area{
         double area = Math.sqrt(s4); //puratar upor just root square korlam
         System.out.println(area);
 
+        /* Simple Java Code to determine the area of
+            a triangle using the Heron's formula 
+            (predetermined Values) */
+
 
 
 
