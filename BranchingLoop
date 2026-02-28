@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class BranchingLoop {
+    public static void main(String []args){
+        //Marks grading system using branching/conditional statements
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your grade number in this semester below: ");
+        int grade = sc.nextInt();
+        if (grade >= 90 && grade <= 100 ){ //&& operator because both logic should be true for the range
+            System.out.println("You got a A grade, congrats!");
+        } else if (grade >= 80 && grade <=89) { //80 theke boro or equal and 89 theke choto ba equal range
+            System.out.println("You got a B grade, almost there");
+        } else if (grade >= 70 && grade <= 79) { //else if is followed by the if statement
+            System.out.println("You got a C grade, keep working");
+        } else if (grade >= 60 && grade <= 69) {
+            System.out.println("D grade is not satisfactory");
+        }
+        else{ //else statement does not contain any logic or condition
+            System.out.println("Sorry, you failed!");
+        }
+    }
+}
