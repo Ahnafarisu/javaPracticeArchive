@@ -1,0 +1,50 @@
+import java.util.Scanner;
+public class whileandforloop {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        /*There are 2 types of loops (primarily)
+        -While Loop
+        -For loop
+        Almost for every case we use for loop.
+         */
+        //While Loop
+        /*int n = sc.nextInt();
+        int i = 1;
+        while (i<=n && i%5==0){
+            System.out.println(i);
+            i += 1;
+        }
+ The while condition checks i<=n && i%5==0 — this means the loop stops as soon as it finds a number not divisible by 5, rather than iterating through all numbers.
+The divisibility check should be inside the loop body as an if statement, not in the while condition.
+         */
+        //int i = 1;                    //initilization (the position from where the loop will start)
+        //while (i<=20){               //conidition (the desired condition for which the loop will run)
+          //  System.out.print(i);  //body (the work done inside the loop)
+            //System.out.println(" Hello CSE110");
+            //i += 1;                 //steps (working flow to reach the end)- increment or decrement
+       // }
+
+        int sehri_announcement = 1;
+        while (sehri_announcement<=3){
+            System.out.println("Its time to sehri, wake up!!");
+            sehri_announcement += 1;
+        }
+        //for loop
+
+        for (int iftaar = 0; iftaar<3; iftaar++){  //initialization, condition and steps all within the parentheses
+            System.out.println("Its time for iftaar");
+        }
+
+       
+
+
+
+
+
+
+
+
+
+
+    }
+}
